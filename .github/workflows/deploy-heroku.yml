@@ -15,6 +15,7 @@ jobs:
           usedocker: true
           docker_heroku_process_type: worker
           stack: "container"
+          region: "eu"
         env:
           HD_CREDENTIALS: ${{secrets.CREDENTIALS}}
           HD_CLIENT_SECRET: ${{secrets.CLIENT_SECRET}}
